@@ -165,6 +165,7 @@ class Gst_Inspector_View(QMainWindow):
         horizontal_splitter = QSplitter(Qt.Horizontal)
         horizontal_splitter.addWidget(left_frame)
         horizontal_splitter.addWidget(right_frame)
+        horizontal_splitter.setChildrenCollapsible(False)
         # With point size 12, the list widget should be large enough to
         # avoid a horizontal scroller.
         horizontal_splitter.setSizes(
