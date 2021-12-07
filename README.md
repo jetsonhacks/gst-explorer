@@ -1,5 +1,6 @@
 # gst-explorer
 GStreamer GUI Interface Tool
+This is the first software sketch of an GUI inspector for GStreamer.
 
 GUI interface for inspecting GStreamer Plugins, Elements and Type Finders. 
 
