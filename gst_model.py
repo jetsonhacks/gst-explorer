@@ -20,7 +20,7 @@ class GstListType (Enum):
 """ The Plugin_Element contains the name of the plugin, the feature name and a description of the element, and the type """
 
 
-class Plugin_Element():
+class Plugin_Feature():
     def __init__(self):
         self.plugin_name: str = ""
         self.feature_name: str = ""
@@ -95,7 +95,7 @@ class Gst_Inspector_Model():
             else:
                 feature_description = ""
 
-            plugin_feature = Plugin_Element(
+            plugin_feature = Plugin_Feature(
                 plugin_name=plugin_name,
                 feature_name=feature_name,
                 feature_description=feature_description)

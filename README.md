@@ -1,6 +1,6 @@
 # gst-explorer
 GStreamer GUI Interface Tool
-This is the first software sketch of an GUI inspector for GStreamer.
+This is a software sketch of an GUI inspector for GStreamer.
 
 GUI interface for inspecting GStreamer Plugins, Elements and Type Finders. 
 
@@ -14,6 +14,9 @@ $ python3 ./gst-inspector.py
 ![Screenshot](gst-inspect.png)
 
 ## Notes
+
+### December, 2021
+* Refactoring
 
 ### November, 2021
 * Initial Release
